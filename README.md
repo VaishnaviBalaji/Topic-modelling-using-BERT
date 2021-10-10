@@ -1,1 +1,5 @@
 # Topic-modelling-using-BERT
+
+Popular topic models like Latent Dirichlet Allocation(LDA) and Non-Negative Matrix Factorization (NMF) could be used as baseline models, while we use transformer-based model BERT since pre-trained models give more accurate representations of words and sentences. Here we are using a library called BERTopic which uses BERT and transformers embeddings to do topic modeling. The BERTopic creates a sentence transformer, let’s say we have a document that has a bunch of words or sentences. Each word is converted to word vectors and is then condensed into sentence vectors, so one vector represents one tweet (or doc). This is then going to perform dimensionality reduction followed by the topic clustering. This technique leverages BERT embeddings and a class-based TF-IDF to create dense clusters for easily interpretable topics and spotting keywords for topic descriptions. It gives us an idea of what these documents are collectively talking about. These are the results of the cluster-based tf-idf. 
+
+**This project is done as a part of my assessment for my masters**
